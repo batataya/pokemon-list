@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sawarabi Mincho', serif;
+}
+
+.conteiner {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+header, footer {
+    background-color: #F0D3F7;
+}
+
+header {
+    padding: 25px 0;
+    margin-bottom: 24px;
+}
+
+footer {
+    padding: 15px 0;
+}
+
+header .conteiner, #about .conteiner, #creatures .conteiner, #crystal .conteiner, #oras .conteiner, #eevee .conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav li, #comunication li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #DF6E54;
+    font-family: 'Fredoka One', cursive;
+    font-weight: normal;
+
+}
+
+header h1 {
+    color: #CE141D;
+    font-family: 'Fredoka One', cursive;
+    font-weight: normal;
+}
+
+#about .conteiner, #creatures .conteiner, #comunication .conteiner, #crystal .conteiner, #oras .conteiner, #eevee .conteiner, #legendary .conteiner, #classic .conteiner, #new .conteiner {
+    align-items: flex-start;
+}
+
+.about-text, .creatures-text, .legendary-text {
+    margin-left: 24px;
+}
+
+#about p, #creatures p, #classic p, #new p {
+    margin-bottom: 8px;
+}
+
+#about img, #creatures img {
+    margin-left: 24px;
+    max-width: 35rem;
+}
+
+.text-icon {
+    width: 10rem;
+}
+
+h2, h3, .page-title {
+    margin-left: 24px;
+    margin-bottom: 8px;
+    color: #DF6E54;
+}
+
+section {
+    padding: 24px 24px;
+}
+
+p, figcaption {
+    color: #AC7B9D;
+}
+
+#games .conteiner, #comunication .conteiner, #legendary .conteiner, #classic .conteiner {
+    display: block
+}
+
+.games-img, .legendary-img {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+#games figure img, #games figure figcaption {
+    max-width: 200px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.social-links img {
+    max-width: 30px;
+}
+
+#comunication-methods img {
+    max-width: 15rem;
+}
+
+.comunication-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form textarea, form input, form button {
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 300px;
+    display: block;
+}
+
+form textarea {
+    height: 150px;
+    resize: none;
+}
+
+form button {
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #DF6E54;
+    color: #641387;
+    font-weight: bold;
+}
+
+input:focus, textarea:focus {
+    outline-color: #DF6E54;
+}
+
+#crystal img, #oras img, #eevee img {
+    width: 300px;
+    margin-right: 24px;
+}
+
+#legendary figure img, #classic img, #new img {
+    width: 200px;
+    margin-right: 24px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article {
+    width: 30%;
+}
+
+#legendary h3 {
+    margin-top: 24px;
+}
+
+footer p {
+    color: #641387;
+    font-family: 'Fredoka One', cursive;
+}
